@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHeart } from '@fortawesome/free-solid-svg-icons';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import logo from './logo.svg';
@@ -72,8 +74,9 @@ function App() {
                 <i className="bi bi-github mx-2"></i>Github
               </a>
             </div>
-        </div>
+          </div>
       </div>
+      <h2 className='text-center'>Made with <FontAwesomeIcon icon={faHeart} className="    fa-beat w-10 mx-2 " style={{ color: "#e52424" }} />By-Ayush</h2>
       
       <div className="row">       
         {
