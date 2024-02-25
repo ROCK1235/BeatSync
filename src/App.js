@@ -61,7 +61,7 @@ function App() {
       </div>
       <div className={`row ${keywords===""?" " : "d-none"}`}>
         <div className='col-12 py-5 text-center'>
-      <h1>Why Don't you give a search!!! </h1>
+      <h1>Try Searching for Something!!! </h1>
       <h4>@BeatSync</h4>
       <h3 className="py-5">Discover music in 30 seconds</h3>
       <div>
